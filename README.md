@@ -1,6 +1,28 @@
 # Linux for Beginners: A Practical Guide
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Chapters](https://img.shields.io/badge/chapters-1%20of%2012-yellow.svg)
+![Status](https://img.shields.io/badge/status-in%20progress-orange.svg)
+![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-lightgrey.svg)
+
 A complete, beginner friendly guide to learning Linux from scratch. No prior experience needed. Whether you're a student, a future developer, or just someone curious about what's running behind most of the internet, this guide walks you through everything step by step, starting with the absolute basics and building up to real, practical skills.
+
+## Table of Contents
+
+| # | Chapter | Status |
+|---|---------|--------|
+| 1 | [What Is Linux and Why Should You Learn It?](./Chapter-01-What-Is-Linux) | ✅ Published |
+| 2 | Navigating the Terminal: Your First Commands | 🔜 Coming Soon |
+| 3 | Files & Directories: Creating, Moving, and Deleting | 🔜 Coming Soon |
+| 4 | Users, Permissions & the Root User | 🔜 Coming Soon |
+| 5 | Installing & Managing Software with apt | 🔜 Coming Soon |
+| 6 | Text Editors: Reading and Editing Files in the Terminal | 🔜 Coming Soon |
+| 7 | Processes & System Monitoring | 🔜 Coming Soon |
+| 8 | Networking Basics: Connections, IPs & SSH | 🔜 Coming Soon |
+| 9 | Shell Scripting: Automating Tasks with Bash | 🔜 Coming Soon |
+| 10 | Disk Management & the Filesystem in Depth | 🔜 Coming Soon |
+| 11 | System Logs, Services & systemd | 🔜 Coming Soon |
+| 12 | What's Next: Linux in the Real World | 🔜 Coming Soon |
 
 ## Why This Guide Exists
 
@@ -10,43 +32,25 @@ By the end, you won't just know commands. You'll understand how Linux thinks.
 
 ## What You'll Learn
 
-The guide is broken into 12 chapters, each building on the last:
+### Chapter 1: What Is Linux and Why Should You Learn It?
 
-1. **What Is Linux and Why Should You Learn It?**
-   Covers the basics of operating systems, the history of Unix and Linux, how Linux compares to Windows and macOS, what a distribution actually is, and how to set up your very first Linux environment using WSL2, a virtual machine, or a live USB.
+This chapter lays the groundwork for everything else in the guide. It covers:
 
-2. **Navigating the Terminal: Your First Commands**
-   Get comfortable with the command line using `cd`, `ls`, and `pwd`.
+* **The big picture** of what an operating system actually does (resource management, hardware abstraction, and the user interface)
+* **A brief history of Linux**, from Unix at Bell Labs in 1969, to Richard Stallman's GNU Project, to Linus Torvalds posting about his "hobby" operating system in 1991
+* **Linux vs. Windows vs. macOS**, an honest, practical comparison across cost, customization, security, and use cases
+* **What a Linux distribution actually is**, and the three major distro families: Debian/Ubuntu, Red Hat/Fedora, and Arch
+* **Desktop vs. terminal**, why both matter and why the terminal holds Linux's real power
+* **The open source philosophy** behind Linux and why the GPL matters
+* **Setting up your first Linux environment** using WSL2, a virtual machine, dual boot, or a live USB
+* **Your first login and first command**, including a walkthrough of the GNOME desktop and your first terminal session
+* **A first look at the Linux filesystem**, including the single tree structure rooted at `/` and key directories like `/home`, `/etc`, and `/var`
 
-3. **Files & Directories: Creating, Moving, and Deleting**
-   Learn how to create, copy, move, and delete files and folders without ever touching a mouse.
+Find the full chapter in the [Chapter-01-What-Is-Linux](./Chapter-01-What-Is-Linux) folder.
 
-4. **Users, Permissions & the Root User**
-   Understand how Linux keeps systems secure through users, groups, and permissions, and what makes the root user different.
+### Chapters 2 through 12 (Coming Soon)
 
-5. **Installing & Managing Software with apt**
-   Learn how to install, update, and remove software using Ubuntu's package manager.
-
-6. **Text Editors: Reading and Editing Files in the Terminal**
-   Get hands on with terminal based text editors so you can read and edit files without leaving the command line.
-
-7. **Processes & System Monitoring**
-   Learn how to see what's running on your system and how to manage it.
-
-8. **Networking Basics: Connections, IPs & SSH**
-   Understand how Linux machines talk to each other, including the fundamentals of SSH.
-
-9. **Shell Scripting: Automating Tasks with Bash**
-   Start writing simple scripts to automate repetitive tasks.
-
-10. **Disk Management & the Filesystem in Depth**
-    Go deeper into how Linux organizes storage and handles disks.
-
-11. **System Logs, Services & systemd**
-    Learn how Linux manages background services and where to look when something goes wrong.
-
-12. **What's Next: Linux in the Real World**
-    Wrap up with guidance on where to take your Linux skills next, whether that's system administration, DevOps, or just everyday confidence at the terminal.
+The rest of the guide builds on Chapter 1, moving from terminal navigation and file management into permissions, package management, text editors, process monitoring, networking, shell scripting, disk management, system services, and finally where to take your Linux skills next.
 
 ## Who This Is For
 
@@ -62,6 +66,14 @@ Each chapter builds on the one before it, so it's best to go in order, especiall
 ## A Note on Approach
 
 This guide leans into the terminal early and often, but it doesn't ignore the graphical side of Linux either. You'll get a proper look at desktop environments like GNOME before diving into command line work, so you understand both faces of the system before choosing which one to lean on.
+
+## Contributing
+
+This guide is a work in progress. If you spot an error, have a suggestion, or want to contribute a chapter, feel free to open an issue or a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Author
 
