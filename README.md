@@ -12,7 +12,7 @@ A complete, beginner friendly guide to learning Linux from scratch. No prior exp
 | # | Chapter | Status |
 |---|---------|--------|
 | 1 | [What Is Linux and Why Should You Learn It?](./Chapter-01-What-Is-Linux) | ✅ Published |
-| 2 | Navigating the Terminal: Your First Commands | 🔜 Coming Soon |
+| 2 | Navigating the Terminal: Your First Commands | ✅ Published |
 | 3 | Files & Directories: Creating, Moving, and Deleting | 🔜 Coming Soon |
 | 4 | Users, Permissions & the Root User | 🔜 Coming Soon |
 | 5 | Installing & Managing Software with apt | 🔜 Coming Soon |
