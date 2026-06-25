@@ -1,1 +1,3 @@
+# Chapter 3 - Files & Directories: Creating, Moving, and Deleting
 
+PDF version available in this folder.
