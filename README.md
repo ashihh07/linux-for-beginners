@@ -15,7 +15,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 |---|---------|--------|--------|
 | 1 | [What Is Linux and Why Should You Learn It?](./Chapter-01-What-Is-Linux) | `Chapter-01-What-Is-Linux` | ✅ Published |
 | 2 | [Navigating the Terminal: Your First Commands](./Chapter-02-Navigating-the-Terminal) | `Chapter-02-Navigating-the-Terminal` | ✅ Published |
-| 3 | Files & Directories: Creating, Moving, and Deleting | — | 🔜 Coming Soon |
+| 3 | [Files & Directories: Creating, Moving, and Deleting](./Chapter-03-Files-and-Directories/) | `Chapter-03-Files-and-Directories` | ✅ Published |
 | 4 | Users, Permissions & the Root User | — | 🔜 Coming Soon |
 | 5 | Installing & Managing Software with apt | — | 🔜 Coming Soon |
 | 6 | Text Editors: Reading and Editing Files in the Terminal | — | 🔜 Coming Soon |
@@ -73,9 +73,18 @@ With the background from Chapter 1, this chapter puts your hands on the keyboard
 
 ---
 
-### 🔜 Chapters 3–12 (Coming Soon)
+✅ **Chapter 3 — Files & Directories: Creating, Moving, and Deleting**
+With navigation down, this chapter puts your hands on the filesystem itself. It covers:
+- Creating files with `touch` and the `>` / `>>` redirection operators
+- Creating directories with `mkdir` and nested paths with `mkdir -p`
+- Viewing file contents with `cat`, `less`, `head`, and `tail -f` for live logs
+- Copying files and directories with `cp` (and why `-i` is a good habit)
+- Moving and renaming with `mv` — in one step or both at once
+- Deleting with `rm` and `rmdir` — and why `rm -rf` deserves extreme caution
+- Wildcards (`*`, `?`, `[]`) for acting on multiple files at once
+- Finding files with `find` (live) and `locate` (fast index)
 
-The rest of the guide builds on these foundations, moving from file management and permissions into package management, text editors, process monitoring, networking, shell scripting, disk management, system services, and finally where to take your Linux skills next.
+📂 [Read Chapter 3 →](Chapter-03-Files-and-Directories)
 
 ---
 
