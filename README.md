@@ -16,7 +16,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 1 | [What Is Linux and Why Should You Learn It?](./Chapter-01-What-Is-Linux) | `Chapter-01-What-Is-Linux` | ✅ Published |
 | 2 | [Navigating the Terminal: Your First Commands](./Chapter-02-Navigating-the-Terminal) | `Chapter-02-Navigating-the-Terminal` | ✅ Published |
 | 3 | [Files & Directories: Creating, Moving, and Deleting](./Chapter-03-Files-and-Directories/) | `Chapter-03-Files-and-Directories` | ✅ Published |
-| 4 | Users, Permissions & the Root User | — | 🔜 Coming Soon |
+| 4 | [Users, Permissions & the Root User](./Chapter-04-Users-and-Permissions) | `Chapter-04-Users-and-Permissions` | ✅ Published |
 | 5 | Installing & Managing Software with apt | — | 🔜 Coming Soon |
 | 6 | Text Editors: Reading and Editing Files in the Terminal | — | 🔜 Coming Soon |
 | 7 | Processes & System Monitoring | — | 🔜 Coming Soon |
@@ -85,6 +85,23 @@ With navigation down, this chapter puts your hands on the filesystem itself. It 
 - Finding files with `find` (live) and `locate` (fast index)
 
 📂 [Read Chapter 3 →](Chapter-03-Files-and-Directories)
+
+---
+
+
+### ✅ **Chapter 4 — Users, Permissions & the Root User**
+With the filesystem covered, this chapter tackles Linux's security model. It covers:
+- Users, groups, UIDs, and GIDs — how Linux identifies who you are
+- The root user and why you should almost never use it directly
+- `sudo` — running privileged commands safely, and how the sudoers file works
+- The permission model: read, write, execute for owner, group, and others
+- Reading and decoding permission strings like `drwxr-xr-x`
+- Changing permissions with `chmod` in both symbolic (`u+x`) and octal (`755`) mode
+- Changing ownership with `chown` and `chgrp`
+- Special permissions: setuid, setgid, and the sticky bit
+- Managing users and groups from the command line
+
+📂 [Read Chapter 4 →](./Chapter-04-Users-and-Permissions)
 
 ---
 
