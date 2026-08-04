@@ -1,7 +1,7 @@
 # Linux for Beginners: A Practical Guide
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Chapters](https://img.shields.io/badge/chapters-2%20of%2012-orange)
+![Chapters](https://img.shields.io/badge/chapters-4%20of%2012-orange)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-blueviolet)
 
