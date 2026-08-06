@@ -87,7 +87,6 @@ With navigation down, this chapter puts your hands on the filesystem itself. It 
 
 ---
 
-
 ### ✅ **Chapter 4 — Users, Permissions & the Root User**
 With the filesystem covered, this chapter tackles Linux's security model. It covers:
 - Users, groups, UIDs, and GIDs — how Linux identifies who you are
@@ -101,6 +100,24 @@ With the filesystem covered, this chapter tackles Linux's security model. It cov
 - Managing users and groups from the command line
 
 📂 [Read Chapter 4 →](./Chapter-04-Users-and-Permissions)
+
+---
+
+### ✅ **Chapter 5 — Installing & Managing Software with apt**
+With permissions mastered, this chapter covers one of Linux's greatest practical strengths: its software management system. It covers:
+
+- What a package manager is and why it's better than downloading installers
+- How `apt` works: repositories, the package index, and Ubuntu's four repo components
+- `sudo apt update` — refreshing the index (and what it does NOT do)
+- Installing software with `apt install`, including useful flags like `-y` and `--dry-run`
+- Removing software: `remove` vs `purge` vs `autoremove` — and when to use each
+- Upgrading your entire system with two commands: `update` + `upgrade`
+- Searching and inspecting packages with `apt search`, `apt show`, and `dpkg`
+- `apt` vs `apt-get` — which to use in the terminal vs in scripts
+- Adding PPAs and third-party repositories (e.g. Docker, Node.js)
+- Installing from source with `configure / make / make install`, plus Snap, Flatpak, and AppImage
+
+📂 [Read Chapter 5 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-05-Installing-Software-with-apt)
 
 ---
 
