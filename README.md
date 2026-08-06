@@ -17,8 +17,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 2 | [Navigating the Terminal: Your First Commands](./Chapter-02-Navigating-the-Terminal) | `Chapter-02-Navigating-the-Terminal` | ✅ Published |
 | 3 | [Files & Directories: Creating, Moving, and Deleting](./Chapter-03-Files-and-Directories/) | `Chapter-03-Files-and-Directories` | ✅ Published |
 | 4 | [Users, Permissions & the Root User](./Chapter-04-Users-and-Permissions) | `Chapter-04-Users-and-Permissions` | ✅ Published |
-| 5 | Installing & Managing Software with apt | — | 🔜 Coming Soon |
-| 6 | Text Editors: Reading and Editing Files in the Terminal | — | 🔜 Coming Soon |
+| 5 | [Installing & Managing Software with apt](./Chapter-05-Installing-and-Managing-Software/) | `Chapter-05-Installing-and-Managing-Software` | ✅ Published || 6 | Text Editors: Reading and Editing Files in the Terminal | — | 🔜 Coming Soon |
 | 7 | Processes & System Monitoring | — | 🔜 Coming Soon |
 | 8 | Networking Basics: Connections, IPs & SSH | — | 🔜 Coming Soon |
 | 9 | Shell Scripting: Automating Tasks with Bash | — | 🔜 Coming Soon |
