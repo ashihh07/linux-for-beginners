@@ -1,7 +1,7 @@
 # Linux for Beginners: A Practical Guide
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Chapters](https://img.shields.io/badge/chapters-4%20of%2012-orange)
+![Chapters](https://img.shields.io/badge/chapters-6%20of%2012-orange)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-blueviolet)
 
@@ -17,7 +17,8 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 2 | [Navigating the Terminal: Your First Commands](./Chapter-02-Navigating-the-Terminal) | `Chapter-02-Navigating-the-Terminal` | ✅ Published |
 | 3 | [Files & Directories: Creating, Moving, and Deleting](./Chapter-03-Files-and-Directories/) | `Chapter-03-Files-and-Directories` | ✅ Published |
 | 4 | [Users, Permissions & the Root User](./Chapter-04-Users-and-Permissions) | `Chapter-04-Users-and-Permissions` | ✅ Published |
-| 5 | [Installing & Managing Software with apt](./Chapter-05-Installing-and-Managing-Software/) | `Chapter-05-Installing-and-Managing-Software` | ✅ Published || 6 | Text Editors: Reading and Editing Files in the Terminal | — | 🔜 Coming Soon |
+| 5 | [Installing & Managing Software with apt](./Chapter-05-Installing-and-Managing-Software/) | `Chapter-05-Installing-and-Managing-Software` | ✅ Published |
+| 6 | [Text Editors: Reading and Editing Files in the Terminal](./Chapter-06-Text-Editors) | `Chapter-06-Text-Editors` | ✅ Published |
 | 7 | Processes & System Monitoring | — | 🔜 Coming Soon |
 | 8 | Networking Basics: Connections, IPs & SSH | — | 🔜 Coming Soon |
 | 9 | Shell Scripting: Automating Tasks with Bash | — | 🔜 Coming Soon |
@@ -118,6 +119,24 @@ With permissions mastered, this chapter covers one of Linux's greatest practical
 - Installing from source with `configure / make / make install`, plus Snap, Flatpak, and AppImage
 
 📂 [Read Chapter 5 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-05-Installing-Software-with-apt)
+
+---
+
+### ✅ **Chapter 6 — Text Editors: Reading and Editing Files in the Terminal**
+With software management covered, this chapter tackles a skill you'll use every single day: editing files directly in the terminal. It covers:
+
+- Why terminal text editors matter — especially for remote server work over SSH
+- A comparison of available editors: nano, vim, neovim, emacs, and micro
+- **nano** — the beginner-friendly editor: opening files, saving, searching, and the full shortcut reference
+- **vim** — the powerful modal editor: understanding Normal, Insert, Visual, and Command modes
+- The golden rule of vim: when in doubt, press `Esc`
+- vim navigation, editing commands, search, and find-and-replace (`:%s/old/new/g`)
+- Working with multiple files and split panes in vim
+- Configuring vim with `~/.vimrc` — line numbers, syntax highlighting, tab settings
+- Editing system config files safely: always back up before touching `/etc/fstab` or `sshd_config`
+- Viewing files without editing: `cat`, `less`, `head`, `tail`, `grep`, `wc`
+
+📂 [Read Chapter 6 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-06-Text-Editors)
 
 ---
 
