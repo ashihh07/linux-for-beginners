@@ -1,7 +1,7 @@
 # Linux for Beginners: A Practical Guide
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Chapters](https://img.shields.io/badge/chapters-6%20of%2012-orange)
+![Chapters](https://img.shields.io/badge/chapters-7%20of%2012-orange)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-blueviolet)
 
@@ -19,7 +19,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 4 | [Users, Permissions & the Root User](./Chapter-04-Users-and-Permissions) | `Chapter-04-Users-and-Permissions` | ✅ Published |
 | 5 | [Installing & Managing Software with apt](./Chapter-05-Installing-and-Managing-Software/) | `Chapter-05-Installing-and-Managing-Software` | ✅ Published |
 | 6 | [Text Editors: Reading and Editing Files in the Terminal](./Chapter-06-Text-Editors) | `Chapter-06-Text-Editors` | ✅ Published |
-| 7 | Processes & System Monitoring | — | 🔜 Coming Soon |
+| 7 | [Processes & System Monitoring](./Chapter-07-Processes-and-System-Monitoring) | `Chapter-07-Processes-and-System-Monitoring` | ✅ Published |
 | 8 | Networking Basics: Connections, IPs & SSH | — | 🔜 Coming Soon |
 | 9 | Shell Scripting: Automating Tasks with Bash | — | 🔜 Coming Soon |
 | 10 | Disk Management & the Filesystem in Depth | — | 🔜 Coming Soon |
@@ -137,6 +137,23 @@ With software management covered, this chapter tackles a skill you'll use every 
 - Viewing files without editing: `cat`, `less`, `head`, `tail`, `grep`, `wc`
 
 📂 [Read Chapter 6 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-06-Text-Editors)
+
+---
+
+### ✅ **Chapter 7 — Processes & System Monitoring**
+With file editing covered, this chapter teaches you to see inside a running Linux system. It covers:
+
+- What a process is: PID, PPID, owner, state, and the full process tree from PID 1
+- Viewing processes with `ps aux` — reading every column and filtering with `grep`
+- Live monitoring with `top` and the improved `htop`
+- Sending signals to processes: `kill`, `killall`, and `pkill` — SIGTERM first, SIGKILL last
+- Job control: running in background with `&`, pausing with `Ctrl+Z`, resuming with `bg` and `fg`
+- Keeping processes alive after logout with `nohup` and persistent sessions with `screen`
+- Monitoring memory with `free -h`, CPU/I/O with `vmstat` and `iostat`
+- Disk usage: `df -h` for filesystem fullness, `du -sh` for directory sizes
+- Understanding load average and what it means relative to your CPU core count
+
+📂 [Read Chapter 7 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-07-Processes-and-System-Monitoring)
 
 ---
 
