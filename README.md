@@ -1,7 +1,7 @@
 # Linux for Beginners: A Practical Guide
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Chapters](https://img.shields.io/badge/chapters-7%20of%2012-orange)
+![Chapters](https://img.shields.io/badge/chapters-8%20of%2012-orange)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-blueviolet)
 
@@ -20,7 +20,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 5 | [Installing & Managing Software with apt](./Chapter-05-Installing-and-Managing-Software/) | `Chapter-05-Installing-and-Managing-Software` | ✅ Published |
 | 6 | [Text Editors: Reading and Editing Files in the Terminal](./Chapter-06-Text-Editors) | `Chapter-06-Text-Editors` | ✅ Published |
 | 7 | [Processes & System Monitoring](./Chapter-07-Processes-and-System-Monitoring) | `Chapter-07-Processes-and-System-Monitoring` | ✅ Published |
-| 8 | Networking Basics: Connections, IPs & SSH | — | 🔜 Coming Soon |
+| 8 | [Networking Basics: Connections, IPs & SSH](./Chapter-08-Networking-and-SSH) | `Chapter-08-Networking-and-SSH` | ✅ Published |
 | 9 | Shell Scripting: Automating Tasks with Bash | — | 🔜 Coming Soon |
 | 10 | Disk Management & the Filesystem in Depth | — | 🔜 Coming Soon |
 | 11 | System Logs, Services & systemd | — | 🔜 Coming Soon |
@@ -154,6 +154,26 @@ With file editing covered, this chapter teaches you to see inside a running Linu
 - Understanding load average and what it means relative to your CPU core count
 
 📂 [Read Chapter 7 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-07-Processes-and-System-Monitoring)
+
+---
+
+### ✅ **Chapter 8 — Networking Basics: Connections, IPs & SSH**
+With system monitoring covered, this chapter connects your Linux machine to the world. It covers:
+
+- How Linux networking works: interfaces, IP addresses, routes, ports, TCP vs UDP
+- Inspecting network interfaces and routing with `ip addr show` and `ip route`
+- Testing connectivity step by step with `ping` — loopback → gateway → internet → DNS
+- Downloading files and interacting with APIs using `curl` and `wget`
+- Checking open ports and connections with `ss -tlnp`
+- DNS tools: `dig`, `nslookup`, and `host` — turning names into IPs
+- Connecting to remote servers with `SSH` — the foundation of remote Linux work
+- SSH keys: generating ED25519 key pairs, copying public keys, and setting correct permissions
+- The `~/.ssh/config` file — shortcuts, port settings, and keepalive configuration
+- Transferring files securely with `scp` and efficiently with `rsync`
+- SSH tunnels and local/remote port forwarding
+- Firewall management with `ufw` — allowing services and protecting your system
+
+📂 [Read Chapter 8 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-08-Networking-and-SSH)
 
 ---
 
