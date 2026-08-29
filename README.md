@@ -1,7 +1,7 @@
 # Linux for Beginners: A Practical Guide
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Chapters](https://img.shields.io/badge/chapters-9%20of%2012-orange)
+![Chapters](https://img.shields.io/badge/chapters-10%20of%2012-orange)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-blueviolet)
 
@@ -22,7 +22,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 7 | [Processes & System Monitoring](./Chapter-07-Processes-and-System-Monitoring) | `Chapter-07-Processes-and-System-Monitoring` | ✅ Published |
 | 8 | [Networking Basics: Connections, IPs & SSH](./Chapter-08-Networking-and-SSH) | `Chapter-08-Networking-and-SSH` | ✅ Published |
 | 9 | [Shell Scripting: Automating Tasks with Bash](./Chapter-09-Shell-Scripting) | `Chapter-09-Shell-Scripting` | ✅ Published |
-| 10 | Disk Management & the Filesystem in Depth | — | 🔜 Coming Soon |
+| 10 | Disk Management & the Filesystem in Depth | Chapter-10-Disk-Management-and-Filesystem | ✅ Published |
 | 11 | System Logs, Services & systemd | — | 🔜 Coming Soon |
 | 12 | What's Next: Linux in the Real World | — | 🔜 Coming Soon |
 
@@ -193,6 +193,25 @@ With networking covered, this chapter brings everything together — writing scr
 - Three complete real-world scripts: automated backup, system health check, batch file rename
 
 📂 [Read Chapter 9 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-09-Shell-Scripting)
+
+---
+
+### ✅ **Chapter 10 — Disk Management & the Filesystem in Depth**
+How Linux really represents, partitions, formats, and mounts storage — and how to keep it from silently filling up. It covers:
+- How Linux names disks and partitions (/dev/sda, /dev/nvme0n1p1) and the block device model
+- Reading disk and partition info with lsblk and fdisk -l
+- Creating partitions interactively with fdisk (and when to reach for parted instead)
+- Formatting partitions with mkfs.ext4, mkfs.xfs, and other filesystem types
+- Mounting and unmounting filesystems with mount and umount, plus common mount options
+- Making mounts persistent and reboot-safe with /etc/fstab and UUIDs
+- Verifying space and mount status with df, df -i, and findmnt
+- Logical Volume Management (LVM) basics: pvcreate, vgcreate, lvcreate, and online resizing with lvextend
+- The real difference between symbolic links and hard links, and how ln -s and ln behave
+- What inodes actually store (and why you can run out of them with disk space to spare)
+- Hunting down disk hogs with du, and diagnosing du vs df disagreements
+- Creating and managing swap space, including building a swap file from scratch
+- Four practical troubleshooting scenarios: new disk setup, "no space left" with free space showing, fixing OOM kills with swap, and mapping what's mounted where
+📂 [Read Chapter 10 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-10-Disk-Management-and-Filesystem)
 
 ---
 
