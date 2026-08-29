@@ -1,7 +1,7 @@
 # Linux for Beginners: A Practical Guide
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Chapters](https://img.shields.io/badge/chapters-8%20of%2012-orange)
+![Chapters](https://img.shields.io/badge/chapters-9%20of%2012-orange)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-blueviolet)
 
@@ -21,7 +21,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 6 | [Text Editors: Reading and Editing Files in the Terminal](./Chapter-06-Text-Editors) | `Chapter-06-Text-Editors` | ✅ Published |
 | 7 | [Processes & System Monitoring](./Chapter-07-Processes-and-System-Monitoring) | `Chapter-07-Processes-and-System-Monitoring` | ✅ Published |
 | 8 | [Networking Basics: Connections, IPs & SSH](./Chapter-08-Networking-and-SSH) | `Chapter-08-Networking-and-SSH` | ✅ Published |
-| 9 | Shell Scripting: Automating Tasks with Bash | — | 🔜 Coming Soon |
+| 9 | [Shell Scripting: Automating Tasks with Bash](./Chapter-09-Shell-Scripting) | `Chapter-09-Shell-Scripting` | ✅ Published |
 | 10 | Disk Management & the Filesystem in Depth | — | 🔜 Coming Soon |
 | 11 | System Logs, Services & systemd | — | 🔜 Coming Soon |
 | 12 | What's Next: Linux in the Real World | — | 🔜 Coming Soon |
@@ -174,6 +174,25 @@ With system monitoring covered, this chapter connects your Linux machine to the 
 - Firewall management with `ufw` — allowing services and protecting your system
 
 📂 [Read Chapter 8 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-08-Networking-and-SSH)
+
+---
+
+### ✅ **Chapter 9 — Shell Scripting: Automating Tasks with Bash**
+With networking covered, this chapter brings everything together — writing scripts that automate repetitive tasks. It covers:
+
+- What a shell script is and when to write one instead of typing commands manually
+- The shebang line (`#!/bin/bash`), making scripts executable, and running them with `./`
+- Variables, user input with `read`, and environment variables like `$USER`, `$HOME`, `$PWD`
+- Command substitution `$()` and arithmetic with `$(( ))`
+- Conditionals: `if`, `elif`, `else`, `fi` — with real decision-making examples
+- Three families of test expressions: numeric (`-eq`, `-gt`), string (`==`, `-z`), file (`-f`, `-d`, `-x`)
+- Loops: `for` over lists, ranges, and files — `while` with counters and file reading — `until`
+- Functions: defining, calling, passing arguments, and returning values
+- Script arguments: `$1`–`$9`, `$@`, `$#` — and validating them before use
+- Exit codes, `$?`, strict mode with `set -euo pipefail`, and cleanup with `trap`
+- Three complete real-world scripts: automated backup, system health check, batch file rename
+
+📂 [Read Chapter 9 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-09-Shell-Scripting)
 
 ---
 
