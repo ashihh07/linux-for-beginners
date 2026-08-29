@@ -22,7 +22,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 7 | [Processes & System Monitoring](./Chapter-07-Processes-and-System-Monitoring) | `Chapter-07-Processes-and-System-Monitoring` | ✅ Published |
 | 8 | [Networking Basics: Connections, IPs & SSH](./Chapter-08-Networking-and-SSH) | `Chapter-08-Networking-and-SSH` | ✅ Published |
 | 9 | [Shell Scripting: Automating Tasks with Bash](./Chapter-09-Shell-Scripting) | `Chapter-09-Shell-Scripting` | ✅ Published |
-| 10 | [Disk Management & the Filesystem in Depth] (./Chapter-10-Disk-Management-and-Filesystem) | `Chapter-10-Disk-Management-and-Filesystem` | ✅ Published |
+| 10 | [Disk Management & the Filesystem in Depth](./Chapter-10-Disk-Management-and-Filesystem) | `Chapter-10-Disk-Management-and-Filesystem` | ✅ Published |
 | 11 | System Logs, Services & systemd | — | 🔜 Coming Soon |
 | 12 | What's Next: Linux in the Real World | — | 🔜 Coming Soon |
 
