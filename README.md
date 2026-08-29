@@ -211,6 +211,7 @@ How Linux really represents, partitions, formats, and mounts storage — and how
 - Hunting down disk hogs with du, and diagnosing du vs df disagreements
 - Creating and managing swap space, including building a swap file from scratch
 - Four practical troubleshooting scenarios: new disk setup, "no space left" with free space showing, fixing OOM kills with swap, and mapping what's mounted where
+
 📂 [Read Chapter 10 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-10-Disk-Management-and-Filesystem)
 
 ---
