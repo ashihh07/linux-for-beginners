@@ -1,7 +1,7 @@
 # Linux for Beginners: A Practical Guide
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Chapters](https://img.shields.io/badge/chapters-10%20of%2012-orange)
+![Chapters](https://img.shields.io/badge/chapters-11%20of%2012-orange)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-blueviolet)
 
@@ -23,7 +23,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 8 | [Networking Basics: Connections, IPs & SSH](./Chapter-08-Networking-and-SSH) | `Chapter-08-Networking-and-SSH` | ✅ Published |
 | 9 | [Shell Scripting: Automating Tasks with Bash](./Chapter-09-Shell-Scripting) | `Chapter-09-Shell-Scripting` | ✅ Published |
 | 10 | [Disk Management & the Filesystem in Depth](./Chapter-10-Disk-Management-and-Filesystem) | `Chapter-10-Disk-Management-and-Filesystem` | ✅ Published |
-| 11 | System Logs, Services & systemd | — | 🔜 Coming Soon |
+| 11 | [System Logs, Services & systemd](./Chapter-11-System-Logs-Services-and-systemd) | `Chapter-11-System-Logs-Services-and-systemd` | ✅ Published |
 | 12 | What's Next: Linux in the Real World | — | 🔜 Coming Soon |
 
 ---
@@ -213,6 +213,26 @@ How Linux really represents, partitions, formats, and mounts storage — and how
 - Four practical troubleshooting scenarios: new disk setup, "no space left" with free space showing, fixing OOM kills with swap, and mapping what's mounted where
 
 📂 [Read Chapter 10 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-10-Disk-Management-and-Filesystem)
+
+---
+### ✅ **Chapter 11 — System Logs, Services & systemd**
+Every command you've run so far has been reactive — this is where Linux starts working in the background on its own. It covers:
+- Why `systemd` replaced sequential SysVinit scripts, and how PID 1 manages a dependency graph of units
+- Units and targets: `.service`, `.timer`, `.mount`, and how targets map to the old runlevels
+- Controlling services with `systemctl start`, `stop`, `restart`, `reload`, and `status`
+- The real difference between `enable`/`disable` (future boots) and `start`/`stop` (right now), plus `mask`
+- Reading logs the modern way with `journalctl`, including `-u`, `-f`, `-e`, and `-r`
+- Filtering `journalctl` by `--since`/`--until`, priority level (`-p`), and boot (`-b`)
+- The classic `/var/log` files — `syslog`, `auth.log`, `kern.log` — and how they differ by distro
+- Keeping logs from growing forever with `logrotate` and its per-app config files
+- Writing a complete `systemd` `.service` unit file from scratch, and why `daemon-reload` matters
+- Scheduling recurring tasks with `cron`, `crontab -e`, and the five-field time syntax
+- Cron shortcuts like `@daily` and `@reboot`, plus system-wide `/etc/cron.d/` and `cron.daily/`
+- One-time scheduling with `at`, `atq`, and `atrm`
+- Catching up on missed jobs with `anacron` on machines that aren't always powered on
+- Four practical scenarios: a service that won't start, a disk filling with logs, setting up a nightly backup, and investigating a boot
+
+📂 [Read Chapter 11 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-11-System-Logs-Services-and-systemd)
 
 ---
 
