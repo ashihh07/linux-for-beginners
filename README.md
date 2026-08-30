@@ -277,7 +277,12 @@ This guide leans into the terminal early and often, but it doesn't ignore the gr
 
 ## Contributing
 
-This guide is a work in progress. If you spot an error, have a suggestion, or want to contribute a chapter, feel free to open an issue or a pull request.
+This guide is complete. If you find a typo, an error, or
+a command that no longer works on a current Ubuntu release,
+please open an Issue and describe the problem.
+If you want to suggest an addition or improvement, open
+an Issue with your idea before opening a Pull Request.
+All contributions are welcome.
 
 ---
 
