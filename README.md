@@ -1,7 +1,7 @@
 # Linux for Beginners: A Practical Guide
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Chapters](https://img.shields.io/badge/chapters-11%20of%2012-orange)
+![Chapters](https://img.shields.io/badge/chapters-12%20of%2012-orange)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-blueviolet)
 
@@ -24,7 +24,7 @@ A complete, beginner-friendly guide to learning Linux from scratch. No prior exp
 | 9 | [Shell Scripting: Automating Tasks with Bash](./Chapter-09-Shell-Scripting) | `Chapter-09-Shell-Scripting` | ✅ Published |
 | 10 | [Disk Management & the Filesystem in Depth](./Chapter-10-Disk-Management-and-Filesystem) | `Chapter-10-Disk-Management-and-Filesystem` | ✅ Published |
 | 11 | [System Logs, Services & systemd](./Chapter-11-System-Logs-Services-and-systemd) | `Chapter-11-System-Logs-Services-and-systemd` | ✅ Published |
-| 12 | What's Next: Linux in the Real World | — | 🔜 Coming Soon |
+| 12 | [What's Next: Linux in the Real World](./Chapter-12-Whats-Next) | `Chapter-12-Whats-Next` | ✅ Published |
 
 ---
 
@@ -233,6 +233,24 @@ Every command you've run so far has been reactive — this is where Linux starts
 - Four practical scenarios: a service that won't start, a disk filling with logs, setting up a nightly backup, and investigating a boot
 
 📂 [Read Chapter 11 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-11-System-Logs-Services-and-systemd)
+
+---
+---
+
+### ✅ **Chapter 12 — What's Next: Linux in the Real World**
+The final chapter. You've built the foundation — now here's where it takes you. It covers:
+
+- A complete skill map: every command, concept, and tool covered across all 12 chapters
+- Career paths where Linux skills apply directly: sysadmin, DevOps, cybersecurity, cloud, backend, data engineering
+- The next layer of tools to learn: `Docker`, `Kubernetes`, `Ansible`, `Terraform`, and Python automation
+- Certifications worth pursuing: CompTIA Linux+, LPIC-1/2, RHCSA, RHCE, and CKA — with what each tests
+- How to keep learning: `man` pages, the Arch Wiki, official docs, and deliberate practice habits
+- Building a home lab: VirtualBox VMs, Raspberry Pi, a cloud VPS, or WSL2 — with project ideas
+- The Linux community: Ask Ubuntu, Server Fault, Reddit, Arch Wiki, IRC — and how to ask good questions
+- Contributing to open source: documentation, bug reports, and your first pull request
+- How this guide was built: the design system, ReportLab, and the philosophy behind the writing
+
+📂 [Read Chapter 12 →](https://github.com/ashihh07/linux-for-beginners/blob/main/Chapter-12-Whats-Next)
 
 ---
 
