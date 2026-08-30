@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Chapters](https://img.shields.io/badge/chapters-12%20of%2012-orange)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Chapters](https://img.shields.io/badge/Chapters-Complete-brightgreen)
 ![Made with](https://img.shields.io/badge/made%20with-AI%20assisted%20research-blueviolet)
 
 A complete, beginner-friendly guide to learning Linux from scratch. No prior experience needed. Whether you're a student, a future developer, or just someone curious about what's running behind most of the internet — this guide walks you through everything step by step, starting with the absolute basics and building up to real, practical skills.
